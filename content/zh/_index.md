@@ -2,7 +2,7 @@
 title: OpenDocs
 ---
 
-{{< blocks/cover title="欢迎来到我的开源文档库" image_anchor="top" height="full" >}}
+{{< blocks/cover title="欢迎来到我的开源文档库!" image_anchor="top" height="full" >}}
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   进入文档库 <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
