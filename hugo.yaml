@@ -189,9 +189,9 @@ params:
         url: https://github.com/google/docsy
         icon: fab fa-github
         desc: Development takes place here!
-      - name: Slack
-        url: https://example.org/slack
-        icon: fab fa-slack
+      - name: Linkedin
+        url: https://www.linkedin.cn/incareer/in/wenhao-hu-profile/
+        icon: fa-brands fa-linkedin
         desc: Chat with other project developers
       - name: Developer mailing list
         url: https://example.org/mail
