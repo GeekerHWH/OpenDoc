@@ -11,6 +11,7 @@ weight: 2
 
 ### Kubelet启动过程
 主启动函数 [NewMainKubelet](https://github.com/kubernetes/kubernetes/blob/master/pkg/kubelet/kubelet.go)
+
 ```go
 func NewMainKubelet(kubeCfg *kubeletconfiginternal.KubeletConfiguration,
 	kubeDeps *Dependencies,
@@ -41,3 +42,5 @@ func NewMainKubelet(kubeCfg *kubeletconfiginternal.KubeletConfiguration,
 	seccompDefault bool,
 ) (*Kubelet, error)
 ```
+启动过程示意图
+![启动过程](/images/kubelet/kubelet.png)
